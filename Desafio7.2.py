@@ -5,13 +5,10 @@ def receber_notas():
     n1 = int(input("Insira a primeira nota: "))
     n2 = int(input("Insira a segunda nota: "))
     return n1, n2
-'''
+
 def average(receber_notas):
-    soma = receber_notas
+    soma = int(receber_notas[0] + receber_notas[1])
     media = soma / 2
     return print(media)
-'''
-receber_notas()
-# average(receber_notas)
 
-print(statistics.mean(receber_notas))
+average(receber_notas())
