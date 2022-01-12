@@ -9,4 +9,4 @@ n1 = int(input("Insira a primeira nota: "))
 n2 = int(input("Insira a segunda nota: "))
 average(n1, n2)
 
-print(statistics.mean([n1, n2]))
+print(statistics.mean([n1, n2])) 
